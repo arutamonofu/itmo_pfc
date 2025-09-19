@@ -65,6 +65,5 @@ dependencies:
       - typing-extensions==4.15.0
       - tzdata==2025.2
       - urllib3==2.5.0
-      - utils==1.0.2
       - xgboost==3.0.5
 prefix: /home/arutamonofu/miniconda3/envs/itmo_pfc
