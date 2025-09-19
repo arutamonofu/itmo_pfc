@@ -1,0 +1,21 @@
+# configs/main_config.yaml
+
+project_name: "itmo_pfc"
+random_state: 42
+
+
+# ====== ДАННЫЕ ======
+
+data:
+  # Названия столбцом
+  smiles_col: "canonical_smiles"
+  target_col: "pIC50"
+
+  # Директории
+  raw_dir: "data/01_raw/"
+  processed_dir: "data/02_processed/"
+  features_dir: "data/03_features/"
+
+  # Идентификаторы мишеней для скачивания
+  chembl_target_id: "CHEMBL1862"
+  pubchem_accession: "P00519"
