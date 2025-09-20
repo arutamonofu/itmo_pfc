@@ -17,5 +17,22 @@ data:
   features_dir: "data/03_features/"
 
   # Идентификаторы мишеней для скачивания
-  chembl_target_id: "CHEMBL1862"
-  pubchem_accession: "P00519"
+  chembl_target_id: "CHEMBL203"
+  pubchem_accession: "P00533"
+
+
+# ====== ОБУЧЕНИЕ ======
+
+training:
+  model_output_dir: "models/"
+  test_size: 0.2
+  n_trials_optuna: 200
+
+  features:
+    feature_type: "rdkit"  # "rdkit", "mordred", "morgan"  
+
+    morgan:
+      radius: 2
+      n_bits: 2048
+
+    corr_threshold: 0.7

@@ -31,6 +31,8 @@ def main():
     config_path = PROJECT_ROOT / "configs" / "main_config.yaml"
     config = load_config(config_path)
 
+    # My comment
+
     # Данные
     data_config = config["data"]
     target_col = data_config["target_col"]
