@@ -42,7 +42,6 @@ The project integrates several sequential stages:
 1. Cheminformatics: RDKit, Mordred
 2. Machine Learning: Scikit-learn, XGBoost, Optuna
 3. Data Processing: Pandas, NumPy
-4. Pipeline Management: Typer (CLI)
 
 ## CONCLUSION
 Our models achieved relatively low R² scores, which is likely due to the need for more thorough validation on the dataset of generated molecules. Improving the validation process should help refine model performance and reliability.
