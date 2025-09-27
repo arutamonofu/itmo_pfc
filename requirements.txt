@@ -1,0 +1,13 @@
+rdkit
+mordred
+tqdm
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+requests
+pathlib
+time
+joblib
+optuna
