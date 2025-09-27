@@ -32,12 +32,6 @@ The project integrates several sequential stages:
 
 ---
 
-## The entire project is managed via a manual consecutive launch of notebooks
-1. Data_processing.ipynb
-2. Pred_LGBM.ipynb
-3. RandomForest.ipynb
-4. molecule_selection.ipynb
-
 ## Core Technologies & Libraries
 1. Cheminformatics: RDKit, Mordred
 2. Machine Learning: Scikit-learn, LightGBM, RandomForest, Optuna, GridSearch
