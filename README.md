@@ -18,7 +18,7 @@ The project integrates several sequential stages:
    - Tools: **RDKit**, **Mordred**, **Morgan fingerprints**  
 
 3. **Predictive Model Training**  
-   - Machine learning models (**LightGMB**), (**RandomForest**) for predicting biological activity (**pIC50**)  
+   - Machine learning models (**LightGMB**, **RandomForest**) for predicting biological activity (**pIC50**)  
    - Hyperparameter optimization with **Optuna**, **GridSearch**  
 
 4. **Molecule Generation**  
